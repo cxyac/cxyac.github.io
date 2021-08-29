@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>程序员阿菜</title>
+        <link>https://cxyac.com/</link>
+        <description>程序员阿菜的博客</description>
+        <generator>Hugo 0.82.1 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>xxx@gmail.com (阿菜)</managingEditor>
+        
+        
+            <webMaster>xxx@gmail.com (阿菜)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Sun, 29 Aug 2021 18:30:22 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://cxyac.com/rss.xml" />
+        
+        
+            <item>
+                <title>计量单位</title>
+                <link>https://cxyac.com/posts/%E8%AE%A1%E9%87%8F%E5%8D%95%E4%BD%8D/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/%E8%AE%A1%E9%87%8F%E5%8D%95%E4%BD%8D/</guid>
+                <pubDate>Sun, 27 Jun 2021 22:26:34 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;位，字节，兆&lt;/p&gt;
+&lt;p&gt;这些都是存储单位。&lt;/p&gt;
+&lt;p&gt;1.bit（比特） 又叫做 位
+bit 也就是我们不一定听说过的比特，大名鼎鼎的比特币就是以此命名的。它的简写为小写字母 “b” 。&lt;/p&gt;
+&lt;p&gt;作为信息技术的最基本存储单元，因为比特实在太小了，所以大家生活中并不是经常听到。那么 bit 是什么呢？&lt;/p&gt;
+&lt;p&gt;电脑是以二进制存储以及发送接收数据的。二进制的一位，就叫做 1 bit。也就是说 bit 的含义就是二进制数中的一个数位，即 “0” 或者 &amp;quot;1&amp;quot;。是电子计算机中最小的数据单位。每一位的状态只能是 0 或 1。&lt;/p&gt;
+&lt;p&gt;2.Byte（字节）
+Byte 是字节的英文写法。它的简写为大写字母 “B&amp;quot;。&lt;/p&gt;
+&lt;p&gt;在 ASCII 码中，一个英文字母（不分大小写）占一个字节的空间，一个中文汉字占两个字节的空间。
+符号：英文标点占一个字节，中文标点占两个字节。举例：英文句号“.”占 1 个字节的大小，中文句号“&lt;/p&gt;
+&lt;p&gt;字节 Byte 和比特 bit 的换算关系是 1 Byte = 8 bit 。8 个二进制位构成 1 个“字节(Byte)”，它是存储空间的基本计量单位。&lt;/p&gt;
+&lt;p&gt;3.字（word）
+计算机处理事务（寻址、运算等）的单位 通常由若干个字节组成。若干个字节构成，字的位数叫做字长，不同档次的机器有不同的字长。占几位 现代计算机的字长通常为 16、32、64 位（2、4、8 个字节）。例如一台 8 位机，它的 1 个字就等于 1 个字节，字长为 8 位。如果是一台 16 位机，那么，它的 1 个字就由 2 个字节构成，字长为 16 位。字是计算机进行数据处理和运算的单位。&lt;/p&gt;
+&lt;p&gt;KB （千字节）
+需要了解的是，1 KB 并不是一千字节，因为计算机只认识二进制，所以在这里的 KB，是 2 的 10 次方，也就是 1024 个字节。
+另外很多表示存储单位的地方都把 B 写成 b，造成了大家认知的混乱。其实在存储单位计量中出现 b 的地方，它的意思仍然是 B，不要因为 bit 的缩写是 b 就被误导了，在存储计量中是不会用 比特，千比特 这种单位的。但是在网速计量中，b 的真实意思就是指 比特 了，这个我们下面再说。&lt;/p&gt;
+&lt;p&gt;5.存储单位换算
+存储单位换算关系如下：&lt;/p&gt;
+&lt;p&gt;6.字符是可使用多种不同字符方案或代码页来表示的抽象实体。例如，Unicode UTF-16 编码将字符表示为 16 位整数序列，而 Unicode UTF-8 编码则将相同的字符表示为 8 位字节序列。公共语言运行库使用 Unicode UTF-16（Unicode 转换格式，16 位编码形式）表示字符。&lt;/p&gt;
+&lt;p&gt;二.网速怎么算？
+网络线路的计量单位，也就是我们通常说的 2M 宽带，10 M 宽带的单位，是 比特每秒（bits per second）。比特每秒 的缩写为 bps，意思是每秒接收的平均比特数。更大的单位是 千比特每秒（Kbps）或 兆比特每秒（Mbps）。2M 宽带，意味着每秒平均可以接受 2Mb 的数据，也就是二百万左右比特的数据，在这里，小写 b 的意思就是比特了。&lt;/p&gt;
+&lt;p&gt;而通常我们说的下载速度，也就是网速，是每秒下载的字节数。比如网速是 5 KB（这网速可是够慢的），意思就是每秒接收的数据是 五千字节。&lt;/p&gt;
+&lt;p&gt;那我们根据 一字节 等于 8 比特的 换算方法，就可以得出以下结论。&lt;/p&gt;
+&lt;p&gt;下载速度从理论上来说，应该是 带宽的 八分之一。&lt;/p&gt;
+&lt;p&gt;2M 宽带理论下载速度是 256 KB&lt;/p&gt;
+&lt;p&gt;10M 宽带理论下载速度是 1280 KB&lt;/p&gt;
+&lt;p&gt;实际上由于我们还需要接受一些下载需要的一些信息，如 IP 信息，HTTP 信息，再加上服务器传输速度，电脑配置等原因，网速会比理论慢一些。&lt;/p&gt;
+&lt;p&gt;由于很多人都会混淆 字节的大写 B 和比特的小写 b，造成各种混乱。所以在书写单位缩写时，一定要注意 字节 和 比特 的单位的大小写 。&lt;/p&gt;
+&lt;p&gt;总结一下，有以下几个要点需要注意：&lt;/p&gt;
+&lt;p&gt;存储单位和网速的单位，不管是 B 还是 b，代表的都是 字节 Byte。
+带宽的单位，不管是 B 还是 b，代表的都是 比特 bit 。
+只要记住这两点，就算别人写混淆了，我们也是可以明白单位的具体含义的。&lt;/p&gt;
+&lt;p&gt;二进制，十进制，十六进制
+&lt;a href=&#34;https://www.cnblogs.com/gaizai/p/4233780.html&#34;&gt;https://www.cnblogs.com/gaizai/p/4233780.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在数字后面加上不同的字母来表示不同的进位制。B（Binary)表示二进制，O（Octal）表示八进制，D（Decimal）或不加表示十进制，H（Hexadecimal）表示十六进制。例如：(101011)B=(53)O=(43)D=(2B)H&lt;/p&gt;
+&lt;p&gt;常用 a 进制转十进制 是 对 a 进制的每一位 用 a 的 0 1 2 3 4 次幂 之和&lt;/p&gt;
+&lt;p&gt;二进制 → 十进制
+　　方法：二进制数从低位到高位（即从右往左）计算，第 0 位的权值是 2 的 0 次方，第 1 位的权值是 2 的 1 次方，第 2 位的权值是 2 的 2 次方，依次递增下去，把最后的结果相加的值就是十进制的值了。&lt;/p&gt;
+&lt;p&gt;例：将二进制的(101011)B 转换为十进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;第 0 位 1 x 2^0 = 1；&lt;/p&gt;
+&lt;p&gt;第 1 位 1 x 2^1 = 2；&lt;/p&gt;
+&lt;p&gt;第 2 位 0 x 2^2 = 0；&lt;/p&gt;
+&lt;p&gt;第 3 位 1 x 2^3 = 8；&lt;/p&gt;
+&lt;p&gt;第 4 位 0 x 2^4 = 0；&lt;/p&gt;
+&lt;p&gt;第 5 位 1 x 2^5 = 32；&lt;/p&gt;
+&lt;p&gt;读数，把结果值相加，1+2+0+8+0+32=43，即(101011)B=(43)D。&lt;/p&gt;
+&lt;p&gt;八进制 → 十进制
+　　方法：八进制数从低位到高位（即从右往左）计算，第 0 位的权值是 8 的 0 次方，第 1 位的权值是 8 的 1 次方，第 2 位的权值是 8 的 2 次方，依次递增下去，把最后的结果相加的值就是十进制的值了。&lt;/p&gt;
+&lt;p&gt;八进制就是逢 8 进 1，八进制数采用 0 ～ 7 这八数来表达一个数。&lt;/p&gt;
+&lt;p&gt;例：将八进制的(53)O 转换为十进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;第 0 位 3 x 8^0 = 3；&lt;/p&gt;
+&lt;p&gt;第 1 位 5 x 8^1 = 40；&lt;/p&gt;
+&lt;p&gt;读数，把结果值相加，3+40=43，即(53)O=(43)D。&lt;/p&gt;
+&lt;p&gt;十六进制 → 十进制
+　　方法：十六进制数从低位到高位（即从右往左）计算，第 0 位的权值是 16 的 0 次方，第 1 位的权值是 16 的 1 次方，第 2 位的权值是 16 的 2 次方，依次递增下去，把最后的结果相加的值就是十进制的值了。&lt;/p&gt;
+&lt;p&gt;十六进制就是逢 16 进 1，十六进制的 16 个数为 0123456789ABCDEF。&lt;/p&gt;
+&lt;p&gt;例：将十六进制的(2B)H 转换为十进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;第 0 位 B x 16^0 = 11；&lt;/p&gt;
+&lt;p&gt;第 1 位 2 x 16^1 = 32；&lt;/p&gt;
+&lt;p&gt;读数，把结果值相加，11+32=43，即(2B)H=(43)D。&lt;/p&gt;
+&lt;p&gt;十进制 → 二进制
+　　方法：除 2 取余法，即每次将整数部分除以 2，余数为该位权上的数，而商继续除以 2，余数又为上一个位权上的数，这个步骤一直持续下去，直到商为 0 为止，最后读数时候，从最后一个余数读起，一直到最前面的一个余数。&lt;/p&gt;
+&lt;p&gt;例：将十进制的(43)D 转换为二进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;将商 43 除以 2，商 21 余数为 1；&lt;/p&gt;
+&lt;p&gt;将商 21 除以 2，商 10 余数为 1；&lt;/p&gt;
+&lt;p&gt;将商 10 除以 2，商 5 余数为 0；&lt;/p&gt;
+&lt;p&gt;将商 5 除以 2，商 2 余数为 1；&lt;/p&gt;
+&lt;p&gt;将商 2 除以 2，商 1 余数为 0；&lt;/p&gt;
+&lt;p&gt;将商 1 除以 2，商 0 余数为 1；&lt;/p&gt;
+&lt;p&gt;读数，因为最后一位是经过多次除以 2 才得到的，因此它是最高位，读数字从最后的余数向前读，101011，即(43)D=(101011)B。&lt;/p&gt;
+&lt;p&gt;wpsC02F.tmp&lt;/p&gt;
+&lt;p&gt;（Figure4：图解十进制 → 二进制）&lt;/p&gt;
+&lt;p&gt;十进制 → 八进制
+　　方法 1：除 8 取余法，即每次将整数部分除以 8，余数为该位权上的数，而商继续除以 8，余数又为上一个位权上的数，这个步骤一直持续下去，直到商为 0 为止，最后读数时候，从最后一个余数起，一直到最前面的一个余数。&lt;/p&gt;
+&lt;p&gt;例：将十进制的(796)D 转换为八进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;将商 796 除以 8，商 99 余数为 4；&lt;/p&gt;
+&lt;p&gt;将商 99 除以 8，商 12 余数为 3；&lt;/p&gt;
+&lt;p&gt;将商 12 除以 8，商 1 余数为 4；&lt;/p&gt;
+&lt;p&gt;将商 1 除以 8，商 0 余数为 1；&lt;/p&gt;
+&lt;p&gt;读数，因为最后一位是经过多次除以 8 才得到的，因此它是最高位，读数字从最后的余数向前读，1434，即(796)D=(1434)O。&lt;/p&gt;
+&lt;p&gt;wpsC030.tmp&lt;/p&gt;
+&lt;p&gt;（Figure5：图解十进制 → 八进制）&lt;/p&gt;
+&lt;p&gt;方法 2：使用间接法，先将十进制转换成二进制，然后将二进制又转换成八进制；&lt;/p&gt;
+&lt;p&gt;wpsC031.tmp&lt;/p&gt;
+&lt;p&gt;（Figure6：图解十进制 → 八进制）&lt;/p&gt;
+&lt;p&gt;十进制 → 十六进制
+　　方法 1：除 16 取余法，即每次将整数部分除以 16，余数为该位权上的数，而商继续除以 16，余数又为上一个位权上的数，这个步骤一直持续下去，直到商为 0 为止，最后读数时候，从最后一个余数起，一直到最前面的一个余数。&lt;/p&gt;
+&lt;p&gt;例：将十进制的(796)D 转换为十六进制的步骤如下：&lt;/p&gt;
+&lt;p&gt;将商 796 除以 16，商 49 余数为 12，对应十六进制的 C；&lt;/p&gt;
+&lt;p&gt;将商 49 除以 16，商 3 余数为 1；&lt;/p&gt;
+&lt;p&gt;将商 3 除以 16，商 0 余数为 3；&lt;/p&gt;
+&lt;p&gt;读数，因为最后一位是经过多次除以 16 才得到的，因此它是最高位，读数字从最后的余数向前读，31C，即(796)D=(31C)H。&lt;/p&gt;
+&lt;p&gt;wpsC042.tmp&lt;/p&gt;
+&lt;p&gt;（Figure7：图解十进制 → 十六进制）&lt;/p&gt;
+&lt;p&gt;方法 2：使用间接法，先将十进制转换成二进制，然后将二进制又转换成十六进制；&lt;/p&gt;
+&lt;p&gt;机器数，真值，原码，补码，反码？
+一、机器数和真值&lt;/p&gt;
+&lt;p&gt;在学习原码，反码和补码之前，需要先了解机器数和真值的概念。&lt;/p&gt;
+&lt;p&gt;1、机器数&lt;/p&gt;
+&lt;p&gt;一个数在计算机中的二进制表示形式，叫做这个数的机器数。机器数是带符号的，在计算机用一个数的最高位存放符号，正数为 0，负数为 1.&lt;/p&gt;
+&lt;p&gt;比如，十进制中的数 +3 ，计算机字长为 8 位，转换成二进制就是 00000011。如果是 -3 ，就是 10000011 。&lt;/p&gt;
+&lt;p&gt;那么，这里的 00000011 和 10000011 就是机器数。&lt;/p&gt;
+&lt;p&gt;2、真值&lt;/p&gt;
+&lt;p&gt;**机器数的第一位是符号位，后边才是真正的数值，**所以机器数的形式值就不等于真正的数值。例如上面的有符号数 10000011，其最高位 1 代表负，其真正数值是 -3 而不是形式值 131（10000011 转换成十进制等于 131）。所以，为区别起见，将带符号位的机器数对应的真正数值称为机器数的真值。&lt;/p&gt;
+&lt;p&gt;例：&lt;/p&gt;
+&lt;p&gt;0000 0001 的真值 = +000 0001 = +1&lt;/p&gt;
+&lt;p&gt;1000 0001 的真值 = –000 0001 = –1&lt;/p&gt;
+&lt;p&gt;二、原码，反码，补码的基础概念和计算方法&lt;/p&gt;
+&lt;p&gt;在探求为何机器要使用补码之前，让我们先了解原码，反码和补码的概念。对于一个数，计算机要使用一定的编码方式进行存储。 原码，反码，补码是机器存储一个具体数字的编码方式。&lt;/p&gt;
+&lt;p&gt;1579142033257_原码反码补码.jpg&lt;/p&gt;
+&lt;p&gt;原码
+原码就是符号位加上真值的绝对值，即用第一位表示符号，其余位表示值。比如如果是 8 位二进制：&lt;/p&gt;
+&lt;p&gt;[+1]（原码） = 0000 0001&lt;/p&gt;
+&lt;p&gt;[-1]（原码） = 1000 0001&lt;/p&gt;
+&lt;p&gt;第一位是符号位。因为第一位是符号位，所以 8 位二进制数的取值范围就是：&lt;/p&gt;
+&lt;p&gt;[1111 1111 , 0111 1111]&lt;/p&gt;
+&lt;p&gt;即&lt;/p&gt;
+&lt;p&gt;[-127 , 127]&lt;/p&gt;
+&lt;p&gt;原码是人脑最容易理解和计算的表示方式。&lt;/p&gt;
+&lt;p&gt;反码
+反码的表示方法是: 正数的反码是其本身，负数的反码是在其原码的基础上，符号位不变，其余各个位取反。&lt;/p&gt;
+&lt;p&gt;[+1] = [00000001]（原码）= [00000001]（反码）&lt;/p&gt;
+&lt;p&gt;[-1] = [10000001]（原码）= [11111110]（反码）&lt;/p&gt;
+&lt;p&gt;可见如果一个反码表示的是负数，人脑无法直观的看出来它的数值。通常要将其转换成原码再计算。&lt;/p&gt;
+&lt;p&gt;补码
+补码的表示方法是：正数的补码就是其本身，负数的补码是在其原码的基础上，符号位不变，其余各位取反，最后+1 (即在反码的基础上+1)。&lt;/p&gt;
+&lt;p&gt;[+1] = [00000001]（原码） = [00000001]（反码） = [00000001]（补码）&lt;/p&gt;
+&lt;p&gt;[-1] = [10000001]（原码） = [11111110]（反码） = [11111111]（补码）&lt;/p&gt;
+&lt;p&gt;对于负数，补码表示方式也是人脑无法直观看出其数值的。通常也需要转换成原码在计算其数值。&lt;/p&gt;
+&lt;p&gt;三、为何要使用原码，反码和补码&lt;/p&gt;
+&lt;p&gt;在开始深入学习前，我的学习建议是先&amp;quot;死记硬背&amp;quot;上面的原码，反码和补码的表示方式以及计算方法。&lt;/p&gt;
+&lt;p&gt;现在我们知道了计算机可以有三种编码方式表示一个数。对于正数因为三种编码方式的结果都相同:&lt;/p&gt;
+&lt;p&gt;[+1] = [00000001]（原码） = [00000001]（反码） = [00000001]（补码）&lt;/p&gt;
+&lt;p&gt;所以不需要过多解释. 但是对于负数:&lt;/p&gt;
+&lt;p&gt;[-1] = [10000001]（原码） = [11111110]（反码） = [11111111]（补码）&lt;/p&gt;
+&lt;p&gt;可见原码, 反码和补码是完全不同的。既然原码才是被人脑直接识别并用于计算表示方式。为何还会有反码和补码呢?&lt;/p&gt;
+&lt;p&gt;首先, 因为人脑可以知道第一位是符号位，在计算的时候我们会根据符号位, 选择对真值区域的加减 (真值的概念在本文最开头)。但是对于计算机，加减乘数已经是最基础的运算，要设计的尽量简单。计算机辨别&amp;quot;符号位&amp;quot;显然会让计算机的基础电路设计变得十分复杂! 于是人们想出了将符号位也参与运算的方法。我们知道，根据运算法则减去一个正数等于加上一个负数，即: 1-1 = 1 + (-1) = 0 ，所以机器可以只有加法而没有减法，这样计算机运算的设计就更简单了。&lt;/p&gt;
+&lt;p&gt;于是人们开始探索，将符号位参与运算，并且只保留加法的方法。首先来看原码：&lt;/p&gt;
+&lt;p&gt;计算十进制的表达式: 1-1=0&lt;/p&gt;
+&lt;p&gt;1 - 1 = 1 + (-1) = [00000001]原 + [10000001]原 = [10000010]原 = -2&lt;/p&gt;
+&lt;p&gt;如果用原码表示, 让符号位也参与计算, 显然对于减法来说, 结果是不正确的.这也就是为何计算机内部不使用原码表示一个数。&lt;/p&gt;
+&lt;p&gt;为了解决原码做减法的问题，出现了反码：&lt;/p&gt;
+&lt;p&gt;计算十进制的表达式: 1-1=0&lt;/p&gt;
+&lt;p&gt;1 - 1 = 1 + (-1) = [0000 0001]原 + [1000 0001]原= [0000 0001]反 + [1111 1110]反 = [1111 1111]反 = [1000 0000]原 = -0&lt;/p&gt;
+&lt;p&gt;发现用反码计算减法，结果的真值部分是正确的。而唯一的问题其实就出现在&amp;quot;0&amp;quot;这个特殊的数值上。虽然人们理解上+0 和-0 是一样的，但是 0 带符号是没有任何意义的。而且会有[0000 0000]原和[1000 0000]原两个编码表示 0。&lt;/p&gt;
+&lt;p&gt;于是补码的出现，解决了 0 的符号以及两个编码的问题:&lt;/p&gt;
+&lt;p&gt;1-1 = 1 + (-1) = [0000 0001]原 + [1000 0001]原 = [0000 0001]补 + [1111 1111]补 = [0000 0000]补=[0000 0000]原&lt;/p&gt;
+&lt;p&gt;这样 0 用[0000 0000]表示, 而以前出现问题的-0 则不存在了.而且可以用[1000 0000]表示-128:&lt;/p&gt;
+&lt;p&gt;(-1) + (-127) = [1000 0001]原 + [1111 1111]原 = [1111 1111]补 + [1000 0001]补 = [1000 0000]补&lt;/p&gt;
+&lt;p&gt;-1-127 的结果应该是-128，在用补码运算的结果中，[1000 0000]补 就是-128。但是注意因为实际上是使用以前的-0 的补码来表示-128，所以-128 并没有原码和反码表示 (对-128 的补码表示[1000 0000]补算出来的原码是[0000 0000]原，这是不正确的)。&lt;/p&gt;
+&lt;p&gt;使用补码，不仅仅修复了 0 的符号以及存在两个编码的问题，而且还能够多表示一个最低数. 这就是为什么 8 位二进制，使用原码或反码表示的范围为[-127, +127]，而使用补码表示的范围为[-128, 127]。推荐了解 C++培训课程。&lt;/p&gt;
+&lt;p&gt;因为机器使用补码，所以对于编程中常用到的 32 位 int 类型，可以表示范围是: [-231, 231-1] 因为第一位表示的是符号位.而使用补码表示时又可以多保存一个最小值。&lt;/p&gt;
+&lt;p&gt;其他解释：
+为何要使用原码、反码和补码
+现在我们知道了，计算机可以有三种编码方式表示一个数，对于正数因为三种编码方式的结果都相同，所以不需要过多解释。但是对于负数，其原码、反码和补码是完全不同的。既然原码才是被人脑直接识别并用于计算表示方式，为何还会有反码和补码呢?&lt;/p&gt;
+&lt;p&gt;首先，希望能用符号位代替减法...
+首先，因为人脑可以知道第一位是符号位，在计算的时候我们会根据符号位选择对真值区域的加减。
+但是对于计算机，加减乘数是最最最最基础的运算，要设计的尽量简单，计算机辨别&amp;quot;符号位&amp;quot;会让计算机的基础电路设计变得复杂，于是，人们想出了将符号位也参与运算的方法。
+我们知道，根据运算法则，减去一个正数等于加上一个负数，即：1-1 = 1 + (-1)，所以机器可以只有加法而没有减法，这样计算机运算的设计就更简单了。&lt;/p&gt;
+&lt;p&gt;但是，用原码计算时有一些问题...
+于是人们就开始探索将符号位参与运算并且只保留加法的方法。
+首先来看原码：
+1 - 1 = 1 + (-1) = [0000_0001]原 + [1000_0001]原 = [1000_0010]原 = -2&lt;/p&gt;
+&lt;p&gt;如果用原码表示, 让符号位也参与计算，显然对于减法来说结果是不正确的。
+这也就是为何计算机内部不使用原码表示一个数。
+PS：
+对于上一句话，白哥要打一个大大的问号？虽说包括 Java、C 在内的很多编程语言，在设计整型时，其定义都是：
+【8/16/32/64-bit signed two&#39;s complement integer】
+即：
+【8/16/32/64 位有符号二进制补码整数】
+但也不能说计算机内部不是采用原码表示的吧？&lt;/p&gt;
+&lt;p&gt;于是，反码出现了，但还有问题...
+为了解决原码做减法的问题，出现了反码：
+1 - 1 = 1 + (-1) = [0000_0001]原 + [1000_0001]原= [0000_0001]反 + [1111_1110]反 = [1111_1111]反
+= [1000_0000]原 = -0&lt;/p&gt;
+&lt;p&gt;发现用反码计算减法，结果的真值部分是正确的，而唯一的问题其实就出现在&amp;quot;0&amp;quot;这个特殊的数值上。虽然人们理解上+0 和-0 是一样的，但是 0 带符号是没有任何意义的，而且会有[0000_0000]原和[1000_0000]原两个编码表示 0。&lt;/p&gt;
+&lt;p&gt;补码解决了遗留的这个问题..
+于是补码出现了，它解决了 0 的符号以及两个编码的问题：
+1-1 = 1 + (-1) = [0000_0001]原 + [1000_0001]原 = [0000_0001]补 + [1111_1111]补 = [0000_0000]补
+=[0000_0000]原 = 0&lt;/p&gt;
+&lt;p&gt;这样 0 用[0000_0000]表示， 而以前出现问题的-0 则不存在了。&lt;/p&gt;
+&lt;p&gt;并且，还有意外收获..
+除此之外，还可以用 [1000_0000]补 表示-128：
+(-1) + (-127) = [1000_0001]原 + [1111_1111]原 = [1111_1111]补 + [1000_0001]补 = [1000_0000]补&lt;/p&gt;
+&lt;p&gt;-1-127 的结果应该是-128，在用补码运算的结果中， [1000_0000]补 就代表-128。
+注意，-128 并没有原码和反码表示。&lt;/p&gt;
+&lt;p&gt;使用补码不仅仅修复了 0 的符号以及存在两个编码的问题，而且还能够多表示一个最低数，这就是为什么 8 位二进制使用原码或反码表示的范围为 [-127, +127]，而使用补码表示的范围为 [-128, 127] 的原因。
+因为机器使用补码，所以对于编程中常用到的 32 位 int 类型可以表示范围是 [-2^31, 2^31-1] ，因为第一位表示的是符号位，而使用补码表示时又可以多保存一个最小值。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Ssh登陆慢</title>
+                <link>https://cxyac.com/posts/ssh%E7%99%BB%E9%99%86%E6%85%A2/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/ssh%E7%99%BB%E9%99%86%E6%85%A2/</guid>
+                <pubDate>Sun, 27 Jun 2021 21:54:29 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;Xshell 远程等待时间太长?怎么办？&lt;/p&gt;
+&lt;p&gt;操作 1：
+vim /etc/ssh/sshd_config&lt;/p&gt;
+&lt;p&gt;UseDNS no #关闭 ssh DNS 反向解析
+GSSAPIAuthentication no #关闭 GSSAPI 的用户认证&lt;/p&gt;
+&lt;p&gt;编辑好后：
+service sshd restart #重启服务&lt;/p&gt;
+&lt;p&gt;操作 2：
+请您核实一下您的目录下 /var/log/btmp 文件是否过大;
+如果过大,建议您将该文件删除,在进行登陆测试是否延迟还会大;&lt;/p&gt;
+&lt;p&gt;此文件记录错误登录的日志，如果发现过大，可能有人在暴力登录你的 VPS 。 删除即可。
+当然可以百度相关的命令，查询尝试登录的 ip，并封禁。&lt;/p&gt;
+&lt;p&gt;不要问为什么，改改试试。我们的目的是“不等待登录”。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Tools</title>
+                <link>https://cxyac.com/posts/tools/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/tools/</guid>
+                <pubDate>Sun, 27 Jun 2021 21:49:04 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;开发中常用的工具以及效率工具&lt;/p&gt;
+&lt;p&gt;gdd 编程工具&lt;/p&gt;
+&lt;p&gt;海外 vps
+基本操作：登录 vps&lt;/p&gt;
+&lt;p&gt;安装 ss 服务器端
+sudo -i
+wget --no-check-certificate -O shadowsocks-all.sh &lt;a href=&#34;https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh&#34;&gt;https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh&lt;/a&gt;
+chmod +x shadowsocks-all.sh
+./shadowsocks-all.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks-all.log&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;高级操作：&lt;/strong&gt;
+加速：开启 bbr
+使用 root 用户登录，运行以下命令：
+wget --no-check-certificate &lt;a href=&#34;https://github.com/teddysun/across/raw/master/bbr.sh&#34;&gt;https://github.com/teddysun/across/raw/master/bbr.sh&lt;/a&gt;
+chmod +x bbr.sh
+./bbr.sh&lt;/p&gt;
+&lt;p&gt;编辑器和 Terminal&lt;/p&gt;
+&lt;p&gt;终端： iTerm2 + zsh + oh-my-zsh 、 xshell&lt;/p&gt;
+&lt;p&gt;编辑器：PHPStorm（推荐） 、vscode（常用）、sublime（批量处理常见文本等）&lt;/p&gt;
+&lt;p&gt;开发辅助
+SourceTree，git 辅助，可视化利器
+postman 请求模拟
+Charles，抓包用，支持 https
+Google Chrome 不解释
+snipaste mac win 多终端支持。放弃使用各社交软件截图吧。
+Sequel Pro，MySQL 数据库管理
+tableplus 数据库管理 mysql redis 等
+MongoHub，Mongo 数据库管理
+SQLite Professional，SQLite 数据库管理&lt;/p&gt;
+&lt;p&gt;效率
+Alfred + Powerpack，应用启动、粘贴板管理
+Thor，一键直达 告别切屏（强烈推荐）
+滴答清单 自我任务管理，按需提醒。全平台
+utools 生产力工具集
+XMind 脑图工具
+幕布 文字编辑 自动生成流程图
+notion 模块类笔记工具
+typora markdown 代码等
+Bear 写作工具 轻便
+IINA，视频播放 可倍速&lt;/p&gt;
+&lt;p&gt;保护视力人人有责
+f.lux，护眼调色&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>PHP面试题</title>
+                <link>https://cxyac.com/posts/phpoldinterview/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/phpoldinterview/</guid>
+                <pubDate>Sun, 27 Jun 2021 00:13:23 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;1.打开浏览器，访问 &lt;a href=&#34;http://www.baidu.com&#34;&gt;www.baidu.com&lt;/a&gt; 直到页面展示。请详解这中间发生了什么？&lt;/p&gt;
+&lt;p&gt;2.http 协议你了解多少？nginx 和 fpm 是怎么交互的？fpm 是怎么运行的？&lt;/p&gt;
+&lt;p&gt;3.php 的垃圾回收是怎么做的？&lt;/p&gt;
+&lt;p&gt;4.mysql 的联合索引是什么？调整 sql 语句中参数的顺序会影响命中索引吗？一次 sql 查询可以命中几个索引？&lt;/p&gt;
+&lt;p&gt;5.慢查询发生解决思路是什么？explain 对应的那些字段 都是什么意思？&lt;/p&gt;
+&lt;p&gt;6.linux 常用命令知道哪些？linux 中怎么看父进程和子进程？怎么后台执行一个 php 脚本？为什么可以后台执行？&lt;/p&gt;
+&lt;p&gt;7.设计模式知道哪些？常见的有哪些？实际应用场景有哪些？（除工厂和单例外 3 种以上）&lt;/p&gt;
+&lt;p&gt;8.知道哪些 php 框架？简单说明 laravel 和 tp 的区别。 请问 tp 的路由是怎么实现的？&lt;/p&gt;
+&lt;p&gt;9.依赖注入是什么意思？在框架中哪里有体现？&lt;/p&gt;
+&lt;p&gt;10.swoole 是干嘛的？和 fpm 模式的 php 有什么不同？协程是什么东西？&lt;/p&gt;
+&lt;p&gt;11.领域驱动设计（DDD）听说过吗？可否罗列并解释相关名词？ 核心域，通用语言，实体 值对象&lt;/p&gt;
+&lt;p&gt;12.微服务是什么？中台是什么？请说出你的理解、&lt;/p&gt;
+&lt;p&gt;13.你遇到过最复杂或者对你最有挑战的项目是什么？你是怎么解决的？你的成长是什么？&lt;/p&gt;
+&lt;p&gt;14.如果线上某个接口报 500 了 你会怎么做？描述你可能的做法。&lt;/p&gt;
+&lt;p&gt;15.如果开发中遇到了问题，你往往会怎么解决。流程是什么样的。&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>架构相关的书籍</title>
+                <link>https://cxyac.com/posts/%E6%9E%B6%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B9%A6%E7%B1%8D/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/%E6%9E%B6%E6%9E%84%E7%9B%B8%E5%85%B3%E7%9A%84%E4%B9%A6%E7%B1%8D/</guid>
+                <pubDate>Sun, 27 Jun 2021 00:13:23 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;大型网站技术架构 : 核心原理与案例分析 --入门&lt;/p&gt;
+&lt;p&gt;代码里的世界观——通往架构师之路 --偏代码上的思考&lt;/p&gt;
+&lt;p&gt;从零开始学架构 --偏系统架构 运维 服务部署等&lt;/p&gt;
+&lt;p&gt;企业应用架构模式 --偏代码 设计 稍有难度&lt;/p&gt;
+&lt;p&gt;领域驱动设计 --偏设计 很难&lt;/p&gt;
+&lt;p&gt;实现领域驱动设计 --加深&lt;/p&gt;
+&lt;p&gt;架构整洁之道 --很系统&lt;/p&gt;
+&lt;p&gt;企业 IT 架构转型之道：阿里巴巴中台战略思想与架构实战 --偏大方向，三层架构 中台&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>First</title>
+                <link>https://cxyac.com/posts/first/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/first/</guid>
+                <pubDate>Sat, 26 Jun 2021 23:43:07 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Hello World</title>
+                <link>https://cxyac.com/posts/hello-world/</link>
+                <guid isPermaLink="true">https://cxyac.com/posts/hello-world/</guid>
+                <pubDate>Sat, 26 Jun 2021 23:37:07 &#43;0800</pubDate>
+                
+                    <author>xxx@gmail.com (阿菜)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;你好，陌生人&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
