@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">程序员阿菜</title>
     <subtitle type="html">程序员阿菜的博客</subtitle>
-    <updated>2021-08-29T18:47:59&#43;08:00</updated>
+    <updated>2021-08-30T13:12:42&#43;08:00</updated>
     <id>https://cxyac.com/</id>
     <link rel="alternate" type="text/html" href="https://cxyac.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://cxyac.com/atom.xml" />
@@ -15,7 +15,7 @@
                 <email>xxx@gmail.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
-    <generator uri="https://gohugo.io/" version="0.82.1">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.87.0">Hugo</generator>
         <entry>
             <title type="text">计量单位</title>
             <link rel="alternate" type="text/html" href="https://cxyac.com/posts/%E8%AE%A1%E9%87%8F%E5%8D%95%E4%BD%8D/" />
@@ -27,7 +27,7 @@
                     <uri>https://cxyac.com/</uri>
                     <email>xxx@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">位，字节，兆 这些都是存储单位。 1.bit（比特） 又叫做 位 bit 也就是我们不一定听说过的比……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">位，字节，兆 这些都是存储单位。 1.bit（比特） 又叫做 位 bit 也就是我们不一定听说过的比特，大名鼎鼎的比特币就是以此命名的。它的简写为小写字母 “b”……</summary>
             
                 <content type="html">&lt;p&gt;位，字节，兆&lt;/p&gt;
 &lt;p&gt;这些都是存储单位。&lt;/p&gt;
@@ -242,7 +242,7 @@ PS：
                     <uri>https://cxyac.com/</uri>
                     <email>xxx@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Xshell 远程等待时间太长?怎么办？ 操作 1： vim /etc/ssh/sshd_config UseDNS no #关闭 ssh DNS 反向解析 GSSAPIAuthentication no #关闭 GSSAPI 的用户认证……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Xshell 远程等待时间太长?怎么办？ 操作 1： vim /etc/ssh/sshd_config UseDNS no #关闭 ssh DNS 反向解析 GSSAPIAuthentication no #关闭 GSSAPI 的用户认证 编辑好后： service sshd restart #重启服务 操作 2： 请您核实一下您的目录下 /var/log/btmp 文……</summary>
             
                 <content type="html">&lt;p&gt;Xshell 远程等待时间太长?怎么办？&lt;/p&gt;
 &lt;p&gt;操作 1：
@@ -282,7 +282,7 @@ service sshd restart #重启服务&lt;/p&gt;
                     <uri>https://cxyac.com/</uri>
                     <email>xxx@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开发中常用的工具以及效率工具 gdd 编程工具 海外 vps 基本操作：登录 vps 安装 ss 服务器端 sudo -i wget --no-check-certificate -O……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">开发中常用的工具以及效率工具 gdd 编程工具 海外 vps 基本操作：登录 vps 安装 ss 服务器端 sudo -i wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh chmod +x shadowsocks-all.sh ./shadowsocks-all.sh 2&amp;gt;&amp;amp;1 | tee shadowsocks-all.log 高级操作： 加速：开启 bbr 使用 root 用户登录，运……</summary>
             
                 <content type="html">&lt;p&gt;开发中常用的工具以及效率工具&lt;/p&gt;
 &lt;p&gt;gdd 编程工具&lt;/p&gt;
@@ -350,7 +350,7 @@ f.lux，护眼调色&lt;/p&gt;
                     <uri>https://cxyac.com/</uri>
                     <email>xxx@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1.打开浏览器，访问 www.baidu.com 直到页面展示。请详解这中间发生了什么？ 2.http 协议你了解多少？ngi……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1.打开浏览器，访问 www.baidu.com 直到页面展示。请详解这中间发生了什么？ 2.http 协议你了解多少？nginx 和 fpm 是怎么交互的？fpm 是怎么运行的？ 3.php 的垃圾回收是怎么……</summary>
             
                 <content type="html">&lt;p&gt;1.打开浏览器，访问 &lt;a href=&#34;http://www.baidu.com&#34;&gt;www.baidu.com&lt;/a&gt; 直到页面展示。请详解这中间发生了什么？&lt;/p&gt;
 &lt;p&gt;2.http 协议你了解多少？nginx 和 fpm 是怎么交互的？fpm 是怎么运行的？&lt;/p&gt;
@@ -392,7 +392,7 @@ f.lux，护眼调色&lt;/p&gt;
                     <uri>https://cxyac.com/</uri>
                     <email>xxx@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">大型网站技术架构 : 核心原理与案例分析 --入门 代码里的世界观——通往架构师之路 --偏代……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">大型网站技术架构 : 核心原理与案例分析 --入门 代码里的世界观——通往架构师之路 --偏代码上的思考 从零开始学架构 --偏系统架构 运维 服务部署等 企业应用……</summary>
             
                 <content type="html">&lt;p&gt;大型网站技术架构 : 核心原理与案例分析 --入门&lt;/p&gt;
 &lt;p&gt;代码里的世界观——通往架构师之路 --偏代码上的思考&lt;/p&gt;
